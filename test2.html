@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>test2</title>
+  <style>
+    h1 { text-align: center; }
+    img {
+      border: 3px solid #303030;
+      border-radius: 10px;
+    }
+    table, td, th {
+      border: 1px solid #ccc;
+      border-collapse: collapse; /* 선을 하나로 합쳐서 깔끔하게 */
+    }
+    td, th {
+      padding: 10px 20px;
+    }
+    td:last-child {
+      width: 200px;
+    } 
+    h3{
+      color: rgb(26, 52, 154);
+       margin-top: 0;
+    }
+  </style>
+</head>
+<body style="margin: 0; padding: 20px;">
+  <h1>🎬영화 제목</h1>
+  <hr style="margin-bottom: 30px;">
+
+  <div style="display: flex; justify-content: center; align-items: flex-start; gap: 30px;">
+    
+    <img src="./edu/cat1.jpg" alt="cat" width="300px">
+
+    <div style="text-align: left;"> 
+      <h3>🔎 영화 정보</h3>
+      
+      <table>
+        <tr style="background-color:rgb(187, 224, 191) ;">
+          <th>항목</th>
+          <th>내용</th>
+        </tr>
+        <tr>
+          <td>감독</td>
+          <td>홍길동</td>
+        </tr>
+        <tr style="background-color: #ececec;">
+          <td>개봉일</td>
+          <td>2024.01.01</td>
+        </tr>
+        <tr>
+          <td>장르</td>
+          <td>드라마</td>
+        </tr>
+      </table>
+    </div> </div>
+    <hr>
+
+    <h3>🧾줄거리</h3>
+    <textarea name="mv" id="mv" cols="100" rows="5"></textarea >
+    <hr>
+
+    <h3>👥등장인물</h3>
+    <ul>
+      <li>주인공</li>
+      <li>조연</li>
+      <li>빌런</li>
+    </ul>
+    <hr>
+
+    <h3>📎관련링크</h3>
+    <a href="https://www.naver.com" target="_blank">공식 홈페이지 바로가기</a>
+</body>
+</html>
